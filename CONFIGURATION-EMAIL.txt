@@ -1,0 +1,29 @@
+===========================================
+CONFIGURATION DES EMAILS DESTINATAIRES
+===========================================
+
+Pour configurer l'email destinataire des formulaires, modifiez les fichiers suivants :
+
+1. sendmail.php (ligne 3)
+   - Modifiez la variable $destinataire avec votre adresse email
+   - Exemple: $destinataire = "votre-email@example.com";
+
+2. sendmail-contact.php (ligne 3)
+   - Modifiez la variable $destinataire avec votre adresse email
+   - Exemple: $destinataire = "votre-email@example.com";
+
+IMPORTANT:
+- L'expéditeur sera automatiquement l'email de l'utilisateur qui remplit le formulaire
+- Le destinataire est l'email que vous configurez dans les fichiers PHP ci-dessus
+- Assurez-vous que votre serveur PHP est configuré pour envoyer des emails (fonction mail() activée)
+
+===========================================
+
+
+
+
+
+
+
+
+

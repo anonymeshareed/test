@@ -1,0 +1,28 @@
+# Configuration email (contient des mots de passe)
+config-email.php
+
+# Composer
+/vendor/
+composer.lock
+
+# Logs
+*.log
+error_log.txt
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*~
+
+# Système
+.DS_Store
+Thumbs.db
+
+
+
+
+
+
+
+
+
