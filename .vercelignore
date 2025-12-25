@@ -1,0 +1,16 @@
+# Fichiers à ignorer lors du déploiement sur Vercel
+
+# Configuration locale (utiliser les variables d'environnement)
+config-email.php
+
+# Fichiers de test
+test-*.php
+
+# Documentation
+*.md
+!README.md
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+

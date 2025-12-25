@@ -1,0 +1,9 @@
+{
+  "buildCommand": "composer install --no-dev --optimize-autoloader",
+  "functions": {
+    "*.php": {
+      "runtime": "@vercel/php"
+    }
+  }
+}
+
